@@ -1,15 +1,15 @@
 
  .container{
-    background-color: aqua;
-    background: rgb(110, 77, 64);
+    background-color:white;
+    background: rgb(66, 63, 63);
     border: 2px solid orange;
     border-radius: 10px;
  }
  .container:hover{
     background: transparent;
-    box-shadow: 4px 4px 4px 0 4px green;
+    box-shadow: 4px 4px 4px 0 4px rgb(224, 231, 224);
     transition: 0.3s;
-    background-color: rgb(8, 61, 61);
+    background-color: rgb(222, 235, 235);
  }
 body{
     background-color: aqua;
@@ -29,7 +29,7 @@ font-family: Arial, sans-serif;
 }
 .menu{
 display: flex;
-gap: 24px;
+gap: 40px;
 }
 .menu a{
     position: relative;
@@ -86,7 +86,7 @@ margin-top: 50px;
 .button0{
     position: absolute;
 margin-bottom: auto;
-    left: 50px;
+    left: 70px;
 
 }
 .button0:hover{
@@ -99,46 +99,46 @@ margin-bottom: auto;
 .p1{
     position: absolute;
 margin-bottom: 100px;
-left: 100px;
+left: 70px;
 }
 .button1{
     width: 20px;
     height: 50px;
     position: absolute;
-    bottom:50px;
-    left: 50px;
+    bottom:49px;
+    left: 69px;
 }
 .button2{
 width: 20px;
 height: 50px;
 position: absolute;
-bottom:9.3%;
-left:11%;
-transform: translate(11%,9.3%);
+bottom:9%;
+left: 23%;
+transform: translate(23%,9%);
 }
 .button3{
 width: 20px;
 height: 50px;
 position: absolute;
-bottom:9.7% ;
-left: 18%;
-transform: translate(9.7%,18%);
+bottom:11.4% ;
+left: 40%;
+transform: translate(11.4%,40%);
 }
 .button4{
 
 width: 20px;
 height: 50px;
 position: absolute;
-bottom:10.5% ;
-left: 25%;
-transform: translate(10.5%,25%);
+bottom:13% ;
+left: 57%;
+transform: translate(13%,57%);
 }
 .button5{
 
 width: 20px;
 height: 50px;
 position: absolute;
-bottom:11% ;
-left: 31%;
-transform: translate(11%,31%);
+bottom:15% ;
+left: 75%;
+transform: translate(15%,75%);
 }
