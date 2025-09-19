@@ -1,0 +1,144 @@
+
+ .container{
+    background-color: aqua;
+    background: rgb(110, 77, 64);
+    border: 2px solid orange;
+    border-radius: 10px;
+ }
+ .container:hover{
+    background: transparent;
+    box-shadow: 4px 4px 4px 0 4px green;
+    transition: 0.3s;
+    background-color: rgb(8, 61, 61);
+ }
+body{
+    background-color: aqua;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+    color: rgb(99, 36, 36);
+      border-radius: 20px 0 20px 0;
+       transition: background 0.3s;
+}
+.menu{
+display: flex;
+gap: 24px;
+}
+.menu a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+   border-radius: 10px;
+}
+.menu a:hover{
+    background: rgb(30, 139, 125);
+    color: white;
+    box-shadow: 4px 4px 4px 0 rgb(5, 54, 39);
+}
+
+.hero{
+  
+    text-align: center;
+    background-position: center; 
+    height: 20vh;
+    width: 50%;
+    border-radius: 20px;
+        margin-bottom :100px;
+        position: relative;
+        margin-left: 200px;
+}
+
+.herop{
+    margin-bottom: 80px;
+    justify-content: flex-end;
+   position: relative;
+}
+.image1{
+     margin-left: 40px;
+    width: 20%;
+     border-radius: 50%;
+     object-fit: fill;
+ float: right;
+ opacity: 1;
+margin-top: 50px;
+}
+.image1:hover{
+    transition: 0.3s;
+    background: transparent;
+    box-shadow: 10px 10px 10px 0 rgb(245, 7, 205);
+}
+.image1 img{
+    width: 50px;
+    height: 20px;
+}
+.links{
+    width: 100%;
+    height: 20vh;
+    color: orangered;
+}
+.button0{
+    position: absolute;
+margin-bottom: auto;
+    left: 50px;
+
+}
+.button0:hover{
+    transition: 0.3s;
+    font-size: 20px;
+    background-color: blue;
+    background: transparent;
+    box-shadow: 10px 10px 10px 0 red;
+}
+.p1{
+    position: absolute;
+margin-bottom: 100px;
+left: 100px;
+}
+.button1{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    bottom:50px;
+    left: 50px;
+}
+.button2{
+width: 20px;
+height: 50px;
+position: absolute;
+bottom:9.3%;
+left:11%;
+transform: translate(11%,9.3%);
+}
+.button3{
+width: 20px;
+height: 50px;
+position: absolute;
+bottom:9.7% ;
+left: 18%;
+transform: translate(9.7%,18%);
+}
+.button4{
+
+width: 20px;
+height: 50px;
+position: absolute;
+bottom:10.5% ;
+left: 25%;
+transform: translate(10.5%,25%);
+}
+.button5{
+
+width: 20px;
+height: 50px;
+position: absolute;
+bottom:11% ;
+left: 31%;
+transform: translate(11%,31%);
+}
